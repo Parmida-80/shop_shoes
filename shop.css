@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: impact;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+}
+
+#head svg {
+    width: 30px;
+}
+
+#header {
+    background-color: rgb(255 224 230);
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#header h1 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#header-main {
+    display: contents;
+}
+
+header img {
+    width: 232px;
+    height: 110px;
+}
+
+.button {
+    padding: 3px 15px;
+    border-radius: 20px;
+    background-color: black;
+    color: #FFF;
+    margin-left: -95px;
+}
+
+header nav {
+    background-color: rgb(243 205 213);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav li {
+    display: inline;
+    padding: 0 10px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+header nav button {
+    align-items: end;
+    height: 28px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: #ddd0;
+    border-style: dashed;
+
+}
+
+/* main */
+main {
+    padding: 50px 0;
+}
+
+.main {
+    padding: 20px 0;
+    align-items: center;
+    text-align: center;
+}
+
+#new-product {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#new-product div {
+    width: 150px;
+    height: 180px;
+    margin: 0 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#new-product div img {
+    width: 113px;
+    height: 69px;
+    margin-top: -20px;
+    transform: rotate(339deg);
+    filter: drop-shadow(7px 10px 5px rgb(73, 73, 73));
+}
+
+#new-product1 {
+    background-color: #e9e9e9;
+}
+
+#new-product2 {
+    background-color: #d3a886;
+}
+
+#new-product3 {
+    background-color: #ffe0e6;
+}
+
+#new-product div p {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-weight: initial;
+    font-size: 14px;
+}
+
+#new-product div button {
+    padding: 3px 10px;
+    border-radius: 20px;
+    background-color: #ddd0;
+    border-style: dashed;
+}
+
+#all-stare {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+#all-stare img {
+    width: 132px;
+    height: 91px;
+    margin: 20px 10px
+}
+
+#all-stare div {
+    margin: 0 10px;
+    align-items: center;
+    width: 157px;
+    height: 159px;
+}
+
+#img {
+    background-color: #f6cfd1;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.text2 {
+    margin: 30px -20px;
+    font-family: system-ui;
+}
+
+#text button {
+    margin: 20px 0;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.img img {
+    width: 109px;
+    height: 122px;
+}
+
+.text3 {
+    font-size: 14px;
+    margin: 10px 20px;
+    font-family: system-ui;
+    text-align: left;
+}
+
+#img-main {
+    width: 100%;
+    height: 200px;
+}
+
+/* foter */
+footer {
+    width: 100%;
+    height: 241px;
+    background-color: black;
+}
+
+#ul {
+    display: flex;
+    color: #FFF;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li {
+    padding: 7px 10px;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer-2 {
+    font-family: system-ui;
+}
+
+.footer {
+    font-family: impact;
+}
+
+.footer li {
+    padding-top: 10px;
+}
+
+.footer-2 li:hover {
+    font-weight: bold;
+}
+#link{
+    display: none;
+}
+
+/*لپتاپ*/
+@media (min-width:700px) {
+    .img img {
+        width: 209px;
+        height: 243px;
+        box-shadow: 0px 3px 10px #9d9d9d;
+    }
+    #header{
+        padding: 0 50px;
+    }
+    #img-main {
+        width: 100%;
+        height: 266px;
+    }
+    #header div h1::after{
+        content: "|_.p.armida._";
+    }
+    #ul {
+        justify-content: left;
+    }
+    #p{
+        width: 310px;
+    }
+    #new-product div {
+        width: 229px;
+        height: 238px;
+        box-shadow: 11px 13px 10px #4e4e4e;
+    }
+
+    #new-product div img {
+        width: 142px;
+        height: 96px;
+        margin-top: -20px;
+        transform: rotate(332deg);
+    }
+
+    #all-stare div {
+        margin: 0 50px;
+        width: 217px;
+        height: 214px;
+    }
+
+    #all-stare img {
+        margin: 57px 38px;
+    }
+    .text2 {
+        padding: 10px 0;
+    }
+    header img {
+        width: 284px;
+        height: 160px;
+    }
+    #link{
+        display: flex;
+        padding: 4px 20px;
+       
+    }
+    #instagram:hover{
+        background-color: #7d0000;
+    }
+    #twiter:hover{
+        background-color: #c9dff7;
+    }
+    #yotyob:hover{
+        background-color: #7d0000;
+    }
+    #faysbok:hover{
+        background-color: #FFF;
+    }
+    #pasafe{
+        display: flex;
+        justify-content: space-between;
+    }
+    #link svg{
+        width: 30px;
+        height: 30px;
+        padding: 10px 0;
+    }
+    #link div{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #4f4f4f;
+        margin: 0 7px;
+    }
+}
+@media (min-width:1300px){
+    body{
+        background-color: rgb(255 224 230);
+        background-image: url(img/pp2.png);
+    }
+    #body{
+        width: 1300px;
+        background-color: #ffffffc8;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #header{
+        height: 317px;
+    }
+    header img {
+        width: 308px;
+        height: 177px;
+    }
+    #new-product div img {
+        width: 155px;
+        height: 109px;
+    }
+    #new-product div {
+        width: 236px;
+        height: 258px;
+        margin: 20px 56px;
+    }
+    .img img {
+        width: 211px;
+        height: 247px;
+        margin: 20px 51px;
+    }
+    .text3 {
+        font-size: 16px;
+        margin: 0px 64px;
+    }
+    #img-main {
+        width: 100%;
+        height: 324px;
+    }
+}
